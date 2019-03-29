@@ -17,6 +17,7 @@ public class NullCheckSample {
         System.out.println(Objects.toString(str1, "default"));
         System.out.println(Objects.toString(str2, "default"));
 
+
         //requrieNonNull 사용법
         System.out.println("\nrequireNonNull 사용법");
         String str3 = null;
@@ -65,6 +66,7 @@ public class NullCheckSample {
         }else{
             System.out.println("널이 아닐때 실행할 내용");
         }
+
 
 
     }
